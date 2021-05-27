@@ -1,0 +1,41 @@
+*{padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+}
+
+
+.about{
+    padding: 100px 200px;
+    transition: 0.3s ease;
+}
+.about-img{
+    height: 200px;
+    width: 100%;
+}
+
+.about-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.about-me{
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+span {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+@media (max-width:980px){
+    .about{padding: 100px 20px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .about{
+      padding: 100px 50px;}
+    }
